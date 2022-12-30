@@ -7,7 +7,7 @@ export class Navbar extends Component {
     return (
       <div>
         <nav
-          className={`navbar navbar-expand-lg sticky-top navbar-${
+          className={`navbar navbar-expand-lg fixed-top navbar-${
             this.props.mode ? "dark" : "light"
           } bg-${this.props.mode ? "dark" : "light"}`}
         >

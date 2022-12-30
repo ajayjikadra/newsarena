@@ -95,7 +95,7 @@ export class News extends Component {
   render() {
     return (
       <div className="container">
-        <h1 className="text-center" style={{ margin: "25px" }}>
+        <h1 className="text-center" style={{ margin: "25px", marginTop: "56px", paddingTop:'22px'}}>
           {this.props.title}{" "}
         </h1>
         <InfiniteScroll
@@ -103,7 +103,7 @@ export class News extends Component {
           next={this.fetchMoreData}
           hasMore={this.state.articles.length !== this.state.totalResults}
           loader={(
-            <span class=""></span>
+            <span className=""></span>
         )}
         >
           <div className="container row">

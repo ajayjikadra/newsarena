@@ -29,7 +29,7 @@ export default class App extends Component {
     })
   }
   render() {
-    console.log(this.apiKey);
+    
     return (
       <div style={this.state.mode?this.divStyle:{}}>
       <BrowserRouter>
